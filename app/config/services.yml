@@ -7,3 +7,12 @@ services:
     #service_name:
     #    class: AppBundle\Directory\ClassName
     #    arguments: ['@another_service_name', 'plain_value', '%parameter_name%']
+    str_trans2:
+        class: AppBundle\Model\String\StringTransformer2
+        autowire: true
+
+    str_trans:
+        class: AppBundle\Model\String\StringTransformer
+        autowire: true
+
+
